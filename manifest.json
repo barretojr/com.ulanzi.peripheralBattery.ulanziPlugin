@@ -1,0 +1,34 @@
+{
+  "Version": "1.0.0",
+  "Author": "jonba",
+  "Name": "Peripheral Battery",
+  "Description": "Bateria do mouse Rapoo VT9 Pro e do fone MCHOSE V9 Pro (precisao de 1%)",
+  "Icon": "assets/icons/icon.png",
+  "Category": "Peripheral Battery",
+  "CategoryIcon": "assets/icons/categoryIcon.png",
+  "CodePath": "plugin/app.html",
+  "Type": "JavaScript",
+  "PrivateAPI": true,
+  "SupportedInMultiActions": false,
+  "UUID": "com.ulanzi.peripheralBattery",
+  "Actions": [
+    {
+      "Name": "Rapoo VT9 Pro",
+      "Icon": "assets/icons/icon.png",
+      "state": 0,
+      "States": [{ "Name": "Default", "Image": "assets/icons/actionDefaultImage.png" }],
+      "Tooltip": "Bateria do mouse Rapoo VT9 Pro",
+      "UUID": "com.ulanzi.peripheralBattery.rapoo",
+      "SupportedInMultiActions": false
+    },
+    {
+      "Name": "MCHOSE V9 Pro",
+      "Icon": "assets/icons/icon.png",
+      "state": 0,
+      "States": [{ "Name": "Default", "Image": "assets/icons/actionDefaultImage.png" }],
+      "Tooltip": "Bateria do fone MCHOSE V9 Pro",
+      "UUID": "com.ulanzi.peripheralBattery.mchose",
+      "SupportedInMultiActions": false
+    }
+  ]
+}
